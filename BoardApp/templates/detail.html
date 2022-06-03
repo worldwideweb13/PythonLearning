@@ -10,7 +10,7 @@
 <div class="container">
   <div class="alert alert-success" role="alert">
       <p>タイトル: {{ object.title }}</p>
-      <p>投稿者: {{ object.autor }}</p>
+      <p>投稿者: {{ object.author }}</p>
       <p>内容: {{ object.content }}</p>
       <p><img src="{{ object.images.url }}" alt="" width="300"></p>
       <a href="{% url 'good' object.pk %}" class="btn btn-primary" role="button" aria-pressed="true">いいね！する</a>
