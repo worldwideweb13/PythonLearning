@@ -1,0 +1,17 @@
+{% extends 'base.html' %} 
+
+{% block content %}
+
+{% if user.is_authenticated %}
+<!-- 複数のtype(images,text)のdata送信をする時は'enctype="multipart/form-data"'の記述が必須 -->
+<form action="" method="post" enctype="multipart/form-data">{% csrf_token %}
+    <p>タイトル: <input type="text" name="title" id=""></p>
+    <p>内容: <input type="text" name="content" id=""></p>
+    <p>画像: <input type="file" name="images" id=""></p>
+    <input type="hidden" name="author" value="{{ user.username }}">
+    <input type="submit" value="作成する">
+</form>
+{% else %}
+<h1>ログインしてください</h1>
+{% endif %}
+{% endblock content %}
