@@ -39,3 +39,8 @@ def listfunc(request):
 def logoutfunc(request):
     logout(request)
     return redirect('login')
+
+# pk...URIパラメータの投稿ID
+def detailfunc(requst, pk):
+    object = BoardModel.objects.get(pk=pk)
+    return render(requst,'detail.html',{'object':object})
