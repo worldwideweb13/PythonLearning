@@ -13,14 +13,6 @@ typeScriptの自学習用リポジトリ。"TS-プロジェクト名"でリポ�
 * TSを動かす上で必要なnode-moduleは重いので、各プロジェクトファイルから抜いてあります。
 対象ファイル直下でnode-moduleをインストールすることで動作確認が取れます。
 
-node-module　のインストール
-```
-$ npm install
-```
-typeScript  の全ファイルの変化を監視する（ウォッチモード）
-```
-$ tsc -w
-```
 
 * TS-libs　TS-DemoApp ではwebpackを利用しています。これらのフォルダでは、webpackをインストールしてアプリケーションの実行環境を作っています。`npm install --save @types/google.maps`
 
