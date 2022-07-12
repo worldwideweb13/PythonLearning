@@ -10,8 +10,6 @@ typeScriptの自学習用リポジトリ。"TS-プロジェクト名"でリポ�
 ---
 
 ### typeScript核学習ファイルの確認事項
-* TSを動かす上で必要なnode-moduleは重いので、各プロジェクトファイルから抜いてあります。
-対象ファイル直下でnode-moduleをインストールすることで動作確認が取れます。
 
 
 * TS-libs　TS-DemoApp ではwebpackを利用しています。これらのフォルダでは、webpackをインストールしてアプリケーションの実行環境を作っています。`npm install --save @types/google.maps`
