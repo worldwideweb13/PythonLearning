@@ -28,24 +28,7 @@ typeScriptの自学習用リポジトリ。"TS-プロジェクト名"でリポ�
   * [GoogleMapの@types](https://www.npmjs.com/package/@types/google.maps) を使うことでts環境でgooglemap関数の型補完を使えるようになります。
 
 ---
-### Node.js & Express & typeScript の開発環境作成
-ここでは[ts-node](ts-node) の実行環境に必要なパッケージ、サードパーティライブラリーを記載しておく
-[本アプリケーション](ts-node)は、ExpressにてCRUD処理を実装したアプリケーションになります。[Postman](https://www.postman.com/)にて動作確認を行いました。
-
-* プロジェクトファイルに package.json の作成 / typeScriptpプロジェクトとして初期化　※ [tsconfig.json](typeScript/ts-node/tsconfig.json) の設定はソース参照。
-```
-$ npm init
-$ tsc --init
-```
-* expressフレームワーク/ body-parser のインストール　。　　body-parserはexpressサーバーで受け取ったリクエストパラメーターをパースするためのパッケージ
-```
-$ npm install --save express body-parser
-```
-* 開発環境で必要なパッケージのインストール nodemon...JSファイルをnode.jsで実行し、ファイルやフォルダの変更を監視。変更があった時にnode.js のアプリケーションサーバーを自動で再起動する（開発の効率化）
-* nodemonを利用するにあたりpackage.jsonで追記が必要。詳細は[package.json](typeScript/ts-node/package.json) 参照。 
-```
-$ npm install --save-dev nodemon
-```
+### Django のMVC　モデル
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/75665390/179008552-41f81a9d-ee84-4fd0-9e7a-1e92e5afee6a.png" />
