@@ -46,13 +46,5 @@ $ npm install --save express body-parser
 ```
 $ npm install --save-dev nodemon
 ```
+![スクリーンショット 2022-07-12 18 57 23](https://user-images.githubusercontent.com/75665390/179008552-41f81a9d-ee84-4fd0-9e7a-1e92e5afee6a.png)
 
-* Node.js　express関数、型定義の読み込み　のため@typesをインストール　
-```
-$ npm install --save-dev @types/node
-$ npm install --save-dev @types/express
-```
-
-```
-$ npm install --save-dev webpack webpack-cli webpack -dev-server typescript ts-loader
-```
