@@ -14,3 +14,4 @@
 * プロジェクトのurl.pyにアプリ(ユーザー、商品、支払い)などの各アプリのルート(URI)を指定する
 * アプリのurls.pyにviews.py(controller),model(DBとの疎通)のルーティングを定義
 * views.pyにhtmlファイルの指定を行う。
+* view ファイルの書き味はlaravelのbladeファイルとほぼ同じ。
