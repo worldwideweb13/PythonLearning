@@ -15,6 +15,5 @@
 * アプリのurls.pyにviews.py(controller),model(DBとの疎通)のルーティングを定義
 * views.pyにhtmlファイルの指定を行う。（view ファイルの書き味はlaravelのbladeファイルとほぼ同じ。
 
-### ケース別学習
-* よく使う文法
-
+### ケース別学習(QA)
+* 
